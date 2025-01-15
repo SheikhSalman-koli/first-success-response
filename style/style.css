@@ -271,3 +271,64 @@ button:hover{
 p:hover{
     cursor: pointer;
 }
+
+@media  screen and (max-width:576px) {
+    body{
+        padding: 0% 3% 0% 3%;
+        
+    }
+    .sec-one,.sec-three,.resp,.news,.card-holder{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .sec-four{
+        width: 96%;
+        padding: 0px;
+    }
+    .parent p{
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 8px;
+        font-size: 15px;
+        color: #0E0E0E;
+        border: 1px solid #D5D6D8;
+        
+    }
+    
+    .sec-four h2{
+        font-size: 40px;
+        font-weight: bold;
+        color: #0E0E0E;
+        text-align: center;
+    }
+    .sec-five{
+        padding: 10px 50px;
+        background-color:#C6E4D6 ;
+        border-radius:24px ;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    
+    .redues input[type="email"]{
+        padding: 5px 100px 5px 10px;
+        color: #FFFFFF;
+        border-radius: 8px 0px 0px 8px ;
+        border-style: none;
+    }
+    .sec-one h1{
+        font-size: 46px;
+        font-weight: bold;
+        color: #0E0E0E;
+        margin-top: 16px;
+    }
+    .sec-one img{
+        width: 430px;
+        height: 300px;
+        
+    }
+    .sec-tow .card-holder{
+        display: grid;
+        gap: 24px;
+    }
+}
