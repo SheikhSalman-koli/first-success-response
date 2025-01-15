@@ -280,11 +280,28 @@ p:hover{
     .sec-one,.sec-three,.resp,.news,.card-holder{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        width: 96%;
+    }
+    .sec-one{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: #C6E4D6;
+        padding: 25px 20px 25px 20px;
+        border-radius: 24px;
         
     }
+    .news{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 32px;
+        margin-bottom: 24px;
+        box-shadow:0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+        padding: 30px 25px;
+        border-radius: 24px;
+    }
+    
     .sec-four{
-        width: 96%;
-        padding: 0px;
+         padding: 0px;
     }
     .parent p{
         background-color: #ffffff;
@@ -311,21 +328,19 @@ p:hover{
     }
     
     .redues input[type="email"]{
-        padding: 5px 100px 5px 10px;
+        padding: 5px 50px 5px 10px;
         color: #FFFFFF;
         border-radius: 8px 0px 0px 8px ;
         border-style: none;
     }
     .sec-one h1{
-        font-size: 46px;
-        font-weight: bold;
+        font-size: 30px;
         color: #0E0E0E;
         margin-top: 16px;
     }
-    .sec-one img{
-        width: 430px;
-        height: 300px;
-        
+    .sec-one img,.sec-three .pic img{
+      width: 100%;
+      
     }
     .sec-tow .card-holder{
         display: grid;
