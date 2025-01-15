@@ -213,3 +213,61 @@ background-color:#F7EBCF;
     justify-content: center;
     margin-top: 31px;
 }
+
+/*subscribe*/
+.sec-five{
+    padding: 80px 265px;
+    background-color:#C6E4D6 ;
+    border-radius:24px ;
+    margin-top: 80px;
+   
+}
+.t-center{
+    text-align: center;
+}
+.sec-five h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.sec-five p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.redues{
+    display: flex;
+    justify-content: center;
+}
+.redues input[type="email"]{
+    padding: 18px 403px 18px 40px;
+    color: #FFFFFF;
+    border-radius: 8px 0px 0px 8px ;
+    border-style: none;
+}
+.redues button{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    border-style: none;
+}   
+
+/* hover effect */
+button:hover{
+    cursor: pointer;
+    background-color:  chartreuse;
+    color: crimson;
+    transition: 0.5s;
+    font-size: 20px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;;
+}
+.parent>p:hover{
+    cursor: pointer;
+    background-color: #FFC239;
+    transition: 0.5s;
+}
+p:hover{
+    cursor: pointer;
+}
